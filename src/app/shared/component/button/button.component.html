@@ -1,0 +1,8 @@
+<button class="{{ color }} {{ size }} text-{{ textColor }} "
+        [disabled]="disabled"
+        [ngClass]="{
+          'cursor-not-allowed': disabled,
+          'opacity-50': disabled
+        }">
+  {{ label }}
+</button>
