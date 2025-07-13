@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { CategoryComponent } from "../components/category/category.component";
+import { MoodTrackerComponent } from "../components/mood-tracker/mood-tracker.component";
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CategoryComponent } from "../components/category/category.component";
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    CategoryComponent
+    CategoryComponent,
+    MoodTrackerComponent
 ],
   declarations: [HomePage]
 })
