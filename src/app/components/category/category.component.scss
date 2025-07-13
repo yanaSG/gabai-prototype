@@ -1,0 +1,33 @@
+.category {
+    max-width: 177px;
+    max-height: 92px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+    border-width: 1px 1px 5px 1px; 
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 24px;
+  }
+  
+  .category-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fcfcfc;
+    letter-spacing: 0.5px; 
+    line-height: 1.5;
+    text-align: center; 
+}
